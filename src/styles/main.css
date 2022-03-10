@@ -1,3 +1,107 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+.wrapper {
+    padding-top: 50px;
+}
+
 .main__title {
-  
+    display: none;
+}
+
+.widget {
+    width: 414px;
+    /* height: 768px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+    padding-bottom: 25px;
+}
+
+.city-select {
+    display: inline-block;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    position: relative;
+}
+
+.select-icon {
+    margin-right: 20px;
+}
+
+.select-city-wrapper {
+    display: block;
+    margin-left: 25px;
+    /* margin-right: auto; */
+    width: fit-content;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.data-panel {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    
+    color: white;
+}
+
+.data-panel__date {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.data-panel__temperature {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.data-panel__weather-state {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.characteristic {
+    display: flex;
+    margin-bottom: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.characteristic>p {
+    color: white;
+}
+
+.characteristic__item {
+    margin-right: 0.5rem;
+}
+
+.characteristic__divider {
+    width: 1px;
+    height: inherit;
+
+    /* padding-top: 2px;
+    padding-bottom: 2px; */
+
+    background-color: white;
 }

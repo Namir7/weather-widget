@@ -13,6 +13,41 @@
 <body>
     <main class="main">
         <h1 class="main__title">Weather widget app</h1>
+        <div class="wrapper">
+            <div class="widget">
+                <div class="select-city-wrapper">
+                    <img class="select-icon" src="svg/location-icon.svg" alt="картинка локация"> 
+                    <select class="city-select" name="select">
+                        <option class="city-select-item" value="city1">city1</option>
+                        <option class="city-select-item" value="city2">city2</option>
+                        <option class="city-select-item" value="city3">city3</option>
+                    </select>
+                </div>
+                <img class="icon" src="./svg/icon1.svg" alt="pciture"></img>
+                <div class="data-panel">
+                    <p class=" data-panel__date"> 10 марта </p>
+                    <p class="data-panel__temperature"> 56 &#176; </p>
+                    <p class="data-panel__weather-state">облачно</p>
+
+                    <ul>
+                        <li class="characteristic">
+                            <img class="characteristic__icon characteristic__item"
+                                src="./svg/windy-characteristic-icon.svg" alt="windy icon">
+                            <p class="characteristic__title characteristic__item"> wind </p>
+                            <div class="characteristic__divider characteristic__item"></div>
+                            <p class="characteristics__value characteristic__item">10 km/h</p>
+                        </li>
+                        <li class="characteristic">
+                            <img class="characteristic__icon characteristic__item" src="svg/hum-characteristic-icon.svg"
+                                alt="windy icon">
+                            <p class="characteristic__title characteristic__item"> hum </p>
+                            <div class="characteristic__divider characteristic__item"></div>
+                            <p class="characteristics__value characteristic__item">54%</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="./main.js"></script>
 </body>
